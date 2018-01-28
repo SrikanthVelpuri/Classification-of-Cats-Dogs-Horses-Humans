@@ -42,6 +42,7 @@ Data used here is custom data collected from internet.
   
   Plotting training  loss vs epochs and training accuracy vs validation accuracy .
   
+  Please see the ipython notebook for complete analysis.
   
 ## Using RESNET-50 model
   
@@ -60,6 +61,8 @@ Data used here is custom data collected from internet.
   Validation accuracy: 99%
   
   Plotting training  loss vs epochs and training accuracy vs validation accuracy .
+  
+  Please see the ipython notebook for complete analysis.
   
 
 
