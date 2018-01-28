@@ -6,7 +6,7 @@ Using Transfer Learning method of Classification of four different classes (cats
 
 Data used here is custom data collected from internet.
   
-  setting labels - full dataset
+  labels - full dataset
   
   ### convert class labels to one-hot encoding
   
@@ -18,9 +18,9 @@ Data used here is custom data collected from internet.
   
   3 for humans - labels[606:]
   
-   Shuffling the dataset
+  Shuffling the dataset
    
-   Spliting the dataset into train data(80%) and test data(20%) 
+  Spliting the dataset into train data(80%) and test data(20%) 
   
   
 
@@ -38,11 +38,28 @@ Data used here is custom data collected from internet.
   
   Training data using random epochs and random batch sizes and choosing the best values.
   
-  Validation accuracy: 98.1481
+  Validation accuracy: 98%
   
   Plotting training  loss vs epochs and training accuracy vs validation accuracy .
   
   
-
+## Using RESNET-50 model
+  
+  Testing of RESNET-50 model using random image.
+  
+  Summary of RESNET-50 model.
+  
+  Using our own custom layers.
+  
+  Freezing all other layers except the last custom layer.
+  
+  Compiling the model with loss function='categorical_crossentropy',optimizer='adam'
+  
+  Training data using random epochs and random batch sizes and choosing the best values.
+  
+  Validation accuracy: 99%
+  
+  Plotting training  loss vs epochs and training accuracy vs validation accuracy .
+  
 
 
